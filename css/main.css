@@ -1,0 +1,33 @@
+/* Testing body tag css */
+body {
+    background-color: rgb(153, 153, 153);
+}
+
+#login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 20rem;
+    margin: 13rem auto;
+    border-radius: 0.5rem;
+    background-color: rgb(44, 44, 44);
+
+}
+
+#login-form {
+    color: rgb(255, 255, 255);
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#submit {
+    display: flex;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+}

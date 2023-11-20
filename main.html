@@ -3,20 +3,29 @@
 <html>
     <head>
         <title>Sign In</title>
+        <link rel="stylesheet" href="css/main.css">
         <link rel="icon" type="image/x-icon" href="img/Favicon.png">
     </head>
 
     <body>
-        <form action="landing.html" method="POST">
-            <label for="username">Username</label>
-            <br>
-            <input type="text" name="username" id="username">
-            <br>
-            <label for="password">Password</label>
-            <br>
-            <input type="text" name="password" id="password">
-            <br>
-            <input type="submit">
-        </form>
+
+        <div>
+            <h1>Main Page</h1>
+        </div>
+
+        <!--Sign in form-->
+        <div id="login-container">
+            <form id="login-form" action="landing.html" method="POST">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="text" name="password" id="password">
+                <br>
+                <input id="submit" type="submit">
+            </form>
+        </div>
     </body>
 </html>
